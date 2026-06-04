@@ -1,7 +1,7 @@
 # 職務経歴書
 
 **氏名**: 工藤 大地（Daichi Kudo）
-**最終更新**: 2026年2月
+**最終更新**: 2026年6月
 
 ---
 
@@ -64,10 +64,17 @@ AI・Web・業務システムの受託開発を統括。LLMアーキテクト/�
 
 | 期間 | クライアント | プロジェクト名 | 内容 | スキルセット | チーム規模 | 役割 |
 |------|-------------|---------------|------|-------------|-----------|------|
+| 2026/04~現在 | 自社開発 | みんかち（AI議論プラットフォーム） | 「前提（状況）によって意見は変わる」ことを可視化する匿名議論PF。状況別の投票集計、AIによる論点まとめ・トピック類似判定（embedding）を実装。要件定義〜本番デプロイまで一貫対応 | TypeScript/Next.js/Express/Prisma/PostgreSQL+pgvector/Redis/Gemini/GCP(Cloud Run/Cloud Build) | 1-2 | 企画・開発 |
+| 2026/04~現在 | 官公庁向けシステム企業 | データサイエンス/BI基盤構築 | 大規模組織向けデータ利活用基盤の構築。多層DWH（Medallion）設計、BIダッシュボード群、DS型業務ツールの要件定義・アーキ設計・PM。閉域環境でのOSS-LLM活用も検討 | PostgreSQL/Apache Superset/Airflow/dbt/Next.js/Leaflet/vLLM(OSS-LLM)/pgvector/k-anonymity/Keycloak | 5 | プレイングマネージャー/DSリード |
+| 2026/04 | 自社開発 | SNS自動投稿AIツール | 飲食店データを収集し、LLMエージェント（LangGraph）で投稿文・画像を自動生成、Threads/Instagramへ定時自動投稿するSaaS。マルチユーザー認証・per-user OAuthを実装 | Python/FastAPI/LangGraph/Gemini/Runware/Playwright/Next.js/Supabase/GCP(Cloud Run/Cloud Tasks) | 1-2 | 企画・開発 |
 | 2026/01~現在 | 官公庁向けシステム企業 | LMS/BI AWS基盤構築 | 大規模LMS/BIシステムのAWS基盤設計・構築。CDKによるInfra as Code、ECS Fargate、RDS MySQL、ElastiCache Redis、CloudFront+WAF、VPCエンドポイント、セキュリティスタック(CloudTrail/Config/GuardDuty/SecurityHub)設計・実装 | AWS CDK/ECS Fargate/RDS MySQL/ElastiCache Redis/CloudFront/WAF/SES/Python/TypeScript | 3 | PM/インフラアーキテクト |
-| 2026/01~現在 | ウェアラブルデバイス企業 | ウェアラブルアルゴリズム改修 | ウェアラブルデバイスのセンサー変更に伴う状態検出アルゴリズムのチューニング・誤検知改修。転倒検知(IMU)・深部体温推定(PPG)・ストレス/コンディション/集中度算出の仕様把握・既存ベンダー引継ぎ・改善ロードマップ策定 | C/C++/PHP/AWS/IoT/Backlog | 3 | PM |
+| 2026/01~05 | ウェアラブルデバイス企業 | ウェアラブルアルゴリズム改修 | ウェアラブルデバイスのセンサー変更に伴う状態検出アルゴリズムのチューニング・誤検知改修。転倒検知(IMU)・深部体温推定(PPG)・ストレス/コンディション/集中度算出の仕様把握・既存ベンダー引継ぎ・改善ロードマップ策定 | C/C++/PHP/AWS/IoT/Backlog | 3 | PM |
+| 2026/01~現在 | エンタメIP企業 | ファンクラブ/ECサイト構築 | 外部EC・会員管理SaaS（MODD）と連携するNext.js製ファンクラブ/ECサイト。Figmaデザイン準拠でEC画面（会員登録/カート/決済）をCSS/JSオーバーライドで再現し、ファンサイトを構築 | TypeScript/Next.js/React/shadcn-ui/Tailwind/外部EC API連携/AWS(ECS Fargate/CloudFront/SES)/Terraform/Playwright | 6 | 開発（外部EC連携・フロントリード） |
+| 2026/01~2026/04 | 通信キャリア | AIアシスタント機能拡張（設計・PoC） | 料金プラン向けAIコンシェルジュの機能拡張。キャラクター中心のUX・体験フロー設計、Agentic RAGアーキ比較、Bedrock(Claude)接続のインタラクティブプロトタイプ構築、セキュリティ要件整理 | AWS Bedrock(Flows)/Claude/Lambda/CloudFront/S3/HTML+CSS+JS/LLMアーキ設計 | 3社体制 | 上流設計/プロトタイプ |
 | 2025/12~現在 | 自社開発（共同運営） | ふたりのトリセツ | MBTI × 独自タイプ分類 × AIの相性診断アプリ企画・開発・マーケ。Local VLM（SDXL/FLUX）のFine-tuningによるオリジナルキャラクター生成 | LLM/SDXL/FLUX/Fine-tuning/LoRA | 2 | 企画・開発・マーケ |
-| 2025/11~現在 | 自社開発 | CharaTube | Local VLMを活用した統合コンテンツ生成PF。漫画動画生成、Live2Dアバター動画生成、TTS連携 | EchoMimicV2/ComfyUI/IP-Adapter/InstantID/Live2D/TTS | 1 | 企画・開発 |
+| 2025/11~現在 | 自社開発 | CharaTube | Local VLM/Live2Dを活用した統合コンテンツ生成PF。トーキングアバター動画自動生成、TTS音声合成、字幕・BGM合成、漫画生成。マルチ組織・クレジット課金を備え、Cloud Run/GCSに本番デプロイ | Live2D(C++)/EchoMimicV2/VEED/Fish Audio/Remotion/FFmpeg/BiRefNet/Modal/FastAPI/React/Stripe/Cloud Run | 1 | 企画・開発 |
+| 2025/11~現在 | 広告代理店 | 技術解説動画 自動制作 | CharaTube基盤を用い、広告代理店経由で大手精密機器メーカー向けの技術解説・プレセールス教育動画を制作。先生×生徒の対話形式、アバター2体合成、多言語(JP/EN)で量産・納品 | Python/Live2D/Fish Audio(TTS)/VEED(リップシンク)/Remotion/FFmpeg/BiRefNet/Modal(GPU) | 1 | PJオーナー/制作リード |
+| 2025/11~2026/03 | 総合商社 | 週報AI要約・RAGチャット | 海外拠点の週報Excelを取り込み、RAGチャット（自然言語QA）と週次サマリー自動生成（good/bad/risk分類）を提供。ベクトル+全文検索+自前GraphRAGのハイブリッド構成、評価自動化 | Python/FastAPI/LangGraph/LangChain/pgvector/PostgreSQL/SudachiPy/OpenRouter(Gemini/GPT)/AWS(ECS Fargate) | 8+ | AIエンジニア(RAG) |
 | 2025/08~10 | エネルギーインフラ企業 | 社内規程QAチャットボット | RAG技術で社内規程や条例文書を検索・回答するAIチャットボット構築 | RAG/LLM/Python | 2 | 企画・開発 |
 | 2025/06~10 | AI関連企業 | 商社向け営業支援AIシステム | 企業調査、ヒアリング準備、商材選定から提案書生成までToB営業を一気通貫で支援 | AWS Bedrock(LangChain)/Python/AWS各種/FAISS/BM25 | 3 | データサイエンティスト/PM |
 | 2025/06~10 | マーケティングテクノロジー企業 | AI出現構造最適化PF | 生成AIにブランドや商品情報が自然に推薦される仕組みを構築 | Dify/Python/GAS/Notion | 1 | データサイエンティスト/PM |
@@ -179,12 +186,13 @@ NHKにて国際ニュースの英日翻訳業務を実施。
 
 | 技術 | 詳細 |
 |------|------|
-| LLMプロバイダ | OpenAI / AWS Bedrock / Azure OpenAI / Vertex AI |
+| LLMプロバイダ | OpenAI / AWS Bedrock / Azure OpenAI / Google Gemini / Vertex AI / OpenRouter |
+| ローカル/OSS LLM | vLLM / Gemma / gpt-oss / オンプレ・閉域環境での自前GPU推論 |
 | フレームワーク | LangChain / LangGraph / LangSmith / LlamaIndex / Dify |
-| ベクトルDB・検索 | Pinecone / FAISS / Weaviate / セマンティックサーチ / BM25 / ハイブリッド検索 |
-| 画像・動画生成 | SDXL / FLUX（Fine-tuning/LoRA）/ EchoMimicV2 / ComfyUI / IP-Adapter / InstantID / Live2D |
-| NLP | 形態素解析(MeCab) / TF-IDF / LDA / Word2Vec / ANN |
-| 音声 | TTS音声合成 |
+| ベクトルDB・検索 | Pinecone / FAISS / Weaviate / pgvector / セマンティックサーチ / BM25 / ハイブリッド検索 / 自前GraphRAG |
+| 画像・動画生成 | SDXL / FLUX（Fine-tuning/LoRA）/ EchoMimicV2 / VEED / BiRefNet / Remotion / ComfyUI / IP-Adapter / InstantID / Live2D |
+| NLP | 形態素解析(MeCab/SudachiPy) / TF-IDF / LDA / Word2Vec / ANN |
+| 音声 | TTS音声合成（Fish Audio / VOICEVOX） |
 
 ### データベース
 
@@ -205,6 +213,9 @@ NHKにて国際ニュースの英日翻訳業務を実施。
 | Firebase | Authentication / Firestore / Cloud Functions | 1年 |
 | Docker | Docker Compose | 6年 |
 | Vercel | - | 1年 |
+| Supabase | PostgreSQL / Storage | 6ヶ月 |
+| Modal | サーバーレスGPU推論 | 6ヶ月 |
+| Terraform | Terraform / Terragrunt（IaC） | 6ヶ月 |
 
 ### BI・データ基盤
 
@@ -225,6 +236,8 @@ NHKにて国際ニュースの英日翻訳業務を実施。
 | Redmine | 2年 |
 | Notion | 2年 |
 | Figma | 1年 |
+| Playwright (E2E / ブラウザ自動化) | 1年 |
+| Stripe (決済) | 6ヶ月 |
 
 ### 言語
 
